@@ -1,0 +1,160 @@
+body {
+	font-family: FuturaPT-Book;
+	font-size: 16px;
+	color: #000000;
+	letter-spacing: 0.5px;
+	line-height: 28px;
+	overflow-x: hidden;
+}
+
+h1 {
+	font-size: 48px;
+	line-height: 50px;
+}
+
+h2 {
+	text-transform: uppercase;
+	font-size: 35px;
+	font-family: .SFNSDisplay-Regular;
+	letter-spacing: 4.38px;
+	line-height: 41px;
+	margin-bottom: 40px;
+}
+
+.header-box {
+	background-image: url(../image/Banner.png);
+	height: 100%;
+	width: 100%;
+}
+
+.header-info-box {
+	width: 429px;
+	height: 254px;
+	margin-left: auto;
+	margin-right: auto;
+	min-height: 10em;
+    position: relative;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+.header-info-box-text {
+	background: #6A2D91;
+	padding: 70px 93px;
+}
+
+.header-info-box img {
+	width: 242px;
+	height: 113px;
+}
+
+.container-main {
+	max-width: 1440px;
+	border: 1px solid grey;
+}
+
+.sock-box {
+	padding: 150px 0 0 0;
+}
+
+.sock-box-text {
+	margin: 30px 0;
+}
+
+.sock-box img {
+	max-width: 100%;
+}
+
+.info-box {
+	background-color: #6A2D91;
+	color: #fff;
+	padding: 30px 0;
+	font-family: .SFNSText-Regular;
+	font-size: 18px;
+	letter-spacing: 2.25px;
+	line-height: 26px;
+	text-align: center;
+}
+
+.info-box img {
+	height: 125px;
+	width: 125px;
+}
+
+.info-box .info-box-text {
+	width: 200px;
+	font-family: .SFNSText-Regular;
+	font-size: 18px;
+	letter-spacing: 2.25px;
+	line-height: 26px;
+	text-transform: uppercase;
+}
+
+.more-button {
+	cursor: pointer;
+	background-color: #fff;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	font-family: .AppleSystemUIFont;
+	letter-spacing: 2px;
+	line-height: 26px;
+	border: 2px solid #000000;	
+}
+
+.liberty-box {
+	background-color: #6A2D91;
+	color: #fff;
+}
+
+.liberty-box .liberty-logo {
+	text-align: center;
+	padding-top: 75px;
+}
+
+.liberty-box h2 {
+	text-align: center;
+}
+
+.liberty-department-store img {
+	max-width: 100%;
+}
+
+.liberty-box-mobile {
+	text-align: center;
+}
+
+.high-quality-box {
+	text-align: center;
+	padding: 100px 0;
+}
+
+.high-quality-box-text {
+	width: 562px;
+}
+
+
+@media (max-width: 375px) {
+	.info-box {
+		margin-top: 0px;
+	}
+
+	.liberty-box .liberty-logo img {
+		width: 200px;
+	}
+}
+
+@media (min-width: 376px) {
+	.liberty-box .liberty-logo img {
+		width: 312px;
+		height: 265px;
+	}
+}
+
+@media (min-width: 800px) {
+	.info-box {
+		margin-top: -200px;
+	}
+}
+
